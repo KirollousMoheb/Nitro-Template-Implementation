@@ -1,0 +1,244 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;}
+
+/*///////////////////navbar/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.nav-link{
+color: #fff !important;
+font-size: 20px;
+padding: 5px 20px !important;
+display: inline-block;
+font-family: 'Open Sans', sans-serif;
+font-weight: 500;
+}
+.nav-link:hover{
+color:#007bff!important;
+transition-duration: 0.6s;
+transition-timing-function: ease-in-out;
+}
+.navbar-toggler{
+background-color:#007bff;
+}
+
+.navbar{
+background-color: transparent !important;
+justify-content: center;
+position: fixed !important;
+top: 0px !important;
+right: 0px;
+left: 0px;
+height: 120px !important;
+
+}
+.navbar-toggler button{
+color:#007bff ;
+}
+.logo{
+	color: #007bff !important;
+}
+.items{
+	color: black !important;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.link{
+	color: black !important ;
+
+}
+.navscroll{
+	background-color: #fff !important;
+	transition: .4s;
+	transition-timing-function: ease-in-out;
+	height: 80px !important;
+	z-index: 1000;
+	color: black;
+
+}
+/*/////////////////////////////////////////////////////////////*/
+
+body{
+	position: relative;
+}
+.navbar{
+	background-color:transparent;
+	height: 100px;
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+
+}
+#home{
+	min-height: 600px;
+	    height: calc(100vh);
+			background-image: url(images/hero_2.jpg);
+			background-size: cover;
+			background-position: center center;
+
+	}
+#team{
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+#about{
+	padding-top: 60px;
+}
+#testimonials{
+	padding-top: 120px;
+}
+#contact{
+	padding-top: 130px;
+}
+.site-footer{
+	background-color: #333333;
+	padding: 50px;
+}
+.section-title{
+	font-size: 40px;
+	font-weight: 900;
+	color:#007bff;
+	margin-bottom: 1rem !important;
+	padding-top: 50px;
+}
+.btn{
+	border-radius: 30px ;
+	font-size: 16px;
+	padding: 10px 30px;
+}
+.btn:hover{
+	background-color: black;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.2s;
+
+}
+.round {
+	border-radius: 30px !important;
+}
+textarea{
+	border-radius: 30px !important;
+}
+.send{
+	background-color: white;
+	color: black;
+}
+.send:hover{
+	background-color: white;
+	color: black;
+
+}
+.h4, h4{
+	font-size: 1.5rem !important;
+	font-family: 'Open Sans', sans-serif;
+}
+.site-footer p {
+    color: #737373;
+		line-height: 30pt;
+
+}
+.site-footer .footer-heading {
+    font-size: 16px;
+    color: #fff;
+}
+.site-footer a{
+ color: #737373;
+
+}
+.site-footer a:hover{
+ color: white;
+ transition-timing-function: ease-in-out;
+ transition-duration: 0.3s;
+
+}
+.fa-check{
+	color: #71bc42;
+}
+.carousel-indicators li{
+	width: 12px;
+	height: 12px;
+	border-radius: 100%;
+background-color: #dee2e6;
+}
+.carousel-indicators .active{
+	background-color: #007bff;
+}
+.testimonials-p{
+	font-size: 35px;
+	padding: 30px;
+	margin-bottom: 1rem;
+	font-family: 'Open Sans', sans-serif;
+
+}
+.profile{
+	height: 50px;
+	width: 50px !important;
+}
+.profile-name{
+	padding-left: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #007bff!important;
+}
+.h2{
+	color: #fff;
+	padding-left: 200px;
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+h2{
+	font-family: 'Open Sans', sans-serif;
+}
+
+ .pr-3{
+	 text-decoration: none;
+ }
+h1{
+
+	color: #fff;
+	font-weight: 900;
+	font-size: 3.5rem;
+	margin-bottom:1rem;
+	font-family: 'Open Sans', sans-serif;
+}
+.desc{
+margin-bottom: 3rem!important;
+font-size: 1.2rem;
+font-weight: 300;
+color: #fff;
+}
+#home{
+	padding-top: 150px;
+}
+
+.mb-3{
+	font-family: 'Open Sans', sans-serif;
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 35pt;
+}
+		.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active,
+		.navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+			color:#007bff !important;
+				background-color: transparent !important;
+		}
+h3{
+	font-family: 'Open Sans', sans-serif;
+
+}
+.mb-4{
+	line-height: 30pt;
+}
